@@ -1,0 +1,54 @@
+{
+  "name": "vplate",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "git@github.com:alexanderjacks/vplate",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "node ./node_modules/vue-gh-pages/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.6",
+    "@fortawesome/free-solid-svg-icons": "^5.4.1",
+    "@fortawesome/vue-fontawesome": "^0.1.1",
+    "i": "^0.3.6",
+    "npm": "^6.4.1",
+    "vue": "^2.5.17",
+    "vue-circle-progress": "0.0.2",
+    "vue-gh-pages": "^1.18.2",
+    "vue-sweetalert2": "^1.5.2",
+    "vue2-circle-progress": "^1.2.3"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-service": "^3.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
